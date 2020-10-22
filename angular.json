@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "hackeruWebsite": {
+    "hackeruwebsite": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/hackeruWebsite",
+            "outputPath": "dist/hackeruwebsite",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "hackeruWebsite:build"
+            "browserTarget": "hackeruwebsite:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "hackeruWebsite:build:production"
+              "browserTarget": "hackeruwebsite:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "hackeruWebsite:build"
+            "browserTarget": "hackeruwebsite:build"
           }
         },
         "test": {
@@ -114,14 +114,14 @@
           },
           "configurations": {
             "production": {
-              "devServerTarget": "hackeruWebsite:serve:production"
+              "devServerTarget": "hackeruwebsite:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "hackeruWebsite",
+  "defaultProject": "hackeruwebsite",
   "cli": {
     "analytics": false
   }
