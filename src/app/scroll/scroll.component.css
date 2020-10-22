@@ -1,0 +1,42 @@
+.scroll{
+    margin-top:70px;
+    height:80px;
+    overflow-x: hidden;
+    background-color: white;
+}
+.container {
+    height:100%;
+    position: relative;
+    margin:0;
+    width:100%;
+}
+ul {
+    position: absolute;
+    padding-right:0;
+    left:0;
+    width:6150px;
+    list-style-type: none;
+    background-color: white !important;
+}
+li{
+    display: inline;
+    float:right;
+}
+.name {
+    font-weight: 500;
+}
+.role{
+    padding-right:6px;
+}
+.break{
+    padding-right:20px;
+    padding-left:20px;
+}
+p{
+    display: inline;
+}
+@media screen and (max-width:850px){
+    .scroll{
+        display: none;
+    }
+}

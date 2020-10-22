@@ -1,0 +1,125 @@
+.content{
+    background: url("https://adoric-images.s3.amazonaws.com/1509719753007_d6tj2u6w57pkxw63ltsz1714i.png") top left no-repeat;
+    background-repeat: no-repeat;
+    background-size: auto, 300px;
+    background-position-x: 180px;
+    transform: 0, rotate(180deg);
+    left: 28%;
+    height:600px;
+    width:600px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 401;
+    background-color: white;
+}
+.fade-out {
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+     opacity: 0;
+}
+.close {
+    position: absolute;
+    right: 48%;
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+}
+.close:focus{
+    box-shadow: none;
+    outline: none;
+}
+.close:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #213a7f;
+}
+.close:before{
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+.shadow{
+    z-index: 400;
+    position: absolute;
+    width: 100%;
+    height: 600%;
+    background-color: black;
+    opacity: 0.3;
+}
+.text{
+    text-align: center;
+    margin-top:100px;
+    margin-right:75px;
+    width:450px;
+    line-height: 1.2;
+    
+}
+.first{
+    color: purple;
+    font-size:22px;
+    font-weight: 500;
+
+}
+.second{
+    color: #213a7f;
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.third{
+    color:purple;
+    font-size:19px;
+}
+.details{
+    margin-left:150px;
+    
+}
+::placeholder {
+    color: #213a7f;
+    font-weight: 500;
+    font-size:14px;
+}
+input{
+    width: 300px;
+    padding:6px;
+    padding-right:13px;
+    margin-bottom: 7px;
+    border: 1px solid lightgray;
+    border-radius: 5%;
+}
+.container {
+    display: flex;
+    margin-right:135px;
+}
+.checkmark{
+    width:13px;
+    padding:0;
+    margin-top:2px;
+}
+.agree{
+    text-align: right;
+    width:73%;
+    padding-right:5px;
+    font-size:13px;
+    color: #213a7f;
+    font-weight: 500;
+}
+.submit{
+    width:200px;
+    margin-left:58px;
+    height:40px;
+    color:white;
+    background-color: #213a7f;
+    border:0;
+}

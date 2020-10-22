@@ -1,0 +1,107 @@
+:root {
+    --animate-delay: 0.5s;
+  }
+.process{
+    padding-top:15px;
+    width:100%;
+    height:450px;
+}
+.content{
+    margin: 0 auto;
+    text-align: right;
+    width:940px;
+    height:100%;
+
+}
+.steps{
+    display: flex;
+    padding-top:5px;
+}
+.step{
+    margin-left: 20px;
+    width: 225px;
+    height: 310px;
+    background-color: blue;
+    position: relative;
+}
+.first{
+    background: rgb(5, 152, 168);
+    color:rgb(5, 152, 168);
+}
+.second{
+    background: rgb(57, 164, 220);
+    color:rgb(57, 164, 220);
+}
+.third{
+    background: rgb(21, 75, 156);
+    color: rgb(21, 75, 156);
+}
+.fourth{
+    background: rgb(53, 47, 138);
+    color:rgb(53, 47, 138);
+}
+.number{
+    text-align: center;
+    font-size:33px;
+    font-weight: 500;
+    line-height:55px ;
+  height: 55px;
+  width: 55px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right:35%;
+  margin-top:8%;
+}
+.headline{
+    color:white;
+    text-align:center;
+    font-size: 23px;
+    height:25px;
+    margin-top:6px;
+}
+.text{
+    line-height: 1.3;
+    margin:0 auto;
+    width:90%;
+    font-size: 16px;
+    color:white;
+    text-align: center;
+}
+.break{
+    width:90%;
+    height:0.9px;
+    border-width:0;
+    color:white;
+    background-color:white;
+}
+.meeting-button{
+    background-color: beige;
+    width: 299px;
+    height:75px;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 80px;
+    background: #213a7f;
+
+}
+.button{
+    border: 2px solid rgb(124, 211, 182);
+    color:white;
+    background-color: #213a7f;
+    font-size:23px;
+    height:95%;
+    margin-right:2px;
+    margin-top:2px;
+    width: 295px;
+}
+img{
+    position: absolute;
+    right: 0;
+    top:35px;
+}
+@media screen and (max-width:980px){
+    .process{
+        display: none;
+    }
+}

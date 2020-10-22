@@ -1,0 +1,151 @@
+.advantages{
+    background: url(https://www.hackeru.co.il/assets/site/images/bg_4.png);
+    background-size:cover;
+    width:100%;
+    height:1100px;
+}
+.content{
+    position: relative;
+    margin: 0 auto;
+}
+.more-hackeru{
+    display: flex;
+    position: absolute;
+    left: 12%;
+    top:-80px;
+    width:80%;
+    height:150px;
+    box-shadow:5px 5px 5px rgba(211, 211, 211, 0.562);
+}
+.global-hackeru{
+    display: flex;
+    background-color: #F5F7FF;
+    width:50%;
+    text-align: right;
+}
+.global-text{
+    width:60%;
+}
+.logo{
+    width: 30%;
+    height:100%;
+}
+img{
+    height:101px;
+    display: block;
+    margin: auto;
+    padding-top:43px;
+}
+.business-hackeru{
+    display: flex;
+    background-color: white;
+    width:50%;
+    text-align: right;
+}
+.business-text{
+    width:60%;
+}
+.title{
+    margin-top:20px;
+    margin-bottom: 1px;
+    font-size:18px;
+    font-weight: 600;
+}
+.text{
+    font-size:12px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 1.2;
+}
+a{
+    margin:0;
+    padding:0;
+    font-size:11px;
+    color:rgb(2, 2, 88);
+    font-weight: 500;
+}
+a:hover{
+    text-decoration: none;
+}
+.advantages-list{
+    width:80%;
+    height:100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.advantages-title{
+    width:100%;
+    margin-top: 120px;
+    font-size:42px;
+    font-weight: 500;
+    text-align: right;
+    display: block;
+}
+.advantage{
+    width:50%;
+    text-align: right;
+    display: flex;
+    padding-bottom: 20px;
+}
+.advantage-img{
+    height:108px;
+    padding-left:5px;
+}
+.smaller{
+    height:98px;
+}
+.advantage-text{
+    padding-top:30px;
+    width:90%;
+}
+.advantage-logo{
+    width:18%;
+    height:100%;
+}
+.advantage-headline{
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.advantage-content{
+    margin:0;
+    padding-bottom: 20px;
+}
+.advantage-link{
+    text-decoration: underline;
+    font-size:15px;
+    color:darkblue;
+}
+.advantage-link:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:800px){
+    .advantage{
+        width:100%;
+    }
+    .advantages{
+        height:1500px;
+    }
+}
+@media screen and (max-width:550px){
+
+    .advantages{
+        height:1700px;
+    }
+}
+@media screen and (max-width:800px){
+    .more-hackeru{
+        height:15%;
+    }
+}
+@media screen and (max-width:700px){
+    .more-hackeru{
+        height:13%;
+    }
+}
+@media screen and (max-width:620px){
+    .more-hackeru{
+       display: none;
+    }
+}

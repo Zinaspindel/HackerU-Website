@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hackeruWebsite"
+    }
+  },
+  "defaultProject": "hackeruWebsite",
+  "cli": {
+    "analytics": false
+  }
 }

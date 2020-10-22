@@ -1,0 +1,133 @@
+nav{
+    z-index: 100;
+    height:85px;
+}
+.sticky{
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        width: 100%;
+        border-bottom:2px solid #274597;
+}
+.army-ad{
+    background-image: url(https://www.hackeru.co.il/assets/site/images/soldier.png);
+    background-size: contain;
+    width:85px;
+    height:112px;
+    text-align: center;
+    margin-top:25px;
+    margin-right:40px;
+    line-height: 1.3;
+    border:0;
+    z-index: 100;
+}
+.army-ad-content{
+    color:white;
+    font-size:12px;
+    font-weight: 500;
+}
+.army-ad-content:hover{
+    text-decoration: none;
+}
+.army-ad-link{
+    color:white;
+    font-size:10px;
+    text-decoration: underline;
+}
+nav{
+    width:100%;
+    padding:0;
+}
+.content{
+    margin:0 auto;
+    display: flex;
+    height:85px;
+}
+.navbar-nav{
+    padding:0;
+    padding-right:10px;
+    height:30px;
+}
+.navbar-toggler{
+    border:none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+}
+button{
+    width: 65px;
+    height: 60px;
+}
+.line{
+width: 100%;
+float: left;
+height: 5px;
+background-color: #213a7f;
+margin-bottom: 5px;
+border-radius: 17%;
+}
+.nav-link{
+    color:black !important;
+    font-size:16px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color:#274597 !important;
+}
+.navbar-brand{
+    margin-top:13px;
+}
+.navbar-nav{
+    background-color:#f8f9fa;
+    margin-top:30px;
+    width:720px;
+}
+#regular-link{
+    white-space: pre-line;
+}
+.dropdown-menu{
+    background-color: #213a7f;
+    border-radius: 3%;
+}
+.dropdown-item{
+    color:#aad6be;
+}
+.dropdown-item:hover{
+    background-color: #aad6be !important;
+    color: #213a7f !important;
+}
+div .show ul{
+    background-color: transparent;
+    width:30%;
+    float:left;
+}
+div .show li{
+ background-color: #f8f9fa;
+}
+@media screen and (max-width:990px){
+    .content{
+        width:100%;
+        display: flex;
+    }
+    .navbar-toggler{
+        position: absolute;
+        top:10px;
+        left:20px;
+    }
+    .army-ad{
+        display:none;
+    }
+    .dropdown-menu{
+        background-color: #213a7f;
+        border-radius: 3%;
+    }
+    .dropdown-item{
+        color:#aad6be;
+    }
+    .dropdown-item:hover{
+        background-color: #aad6be !important;
+        color: #213a7f !important;
+    
+    }
+}
